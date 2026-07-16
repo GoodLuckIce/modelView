@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "feedbackBaseUrl": "https://feedback.collabview.top:28444",
+  "latestRelease": {
+    "version": "1.0.6",
+    "packageUrl": "https://github.com/GoodLuckIce/modelView/releases/download/v1.0.6/ModelView.exe",
+    "packageSha256": "b60d6e30f3f3c56e309b68294572feac89c146a9a24c97ae59379fc6bea3c5d6",
+    "packageSize": 48598016,
+    "publishedAt": "2026-07-17T01:10:03.970560+08:00"
+  },
+  "tools": {
+    "updater": {
+      "name": "ModelViewUpdater.exe",
+      "url": "https://github.com/GoodLuckIce/modelView/releases/download/v1.0.0/ModelViewUpdater.exe",
+      "sha256": "b563e49e7731e624bb920bc5538f1dc35173663f4198477999bca9c7209f388c",
+      "size": 4301824
+    }
+  },
+  "modelTo": {
+    "version": "1.0.0",
+    "packages": [
+      {
+        "name": "ModelTo-release.7z.001",
+        "url": "https://github.com/GoodLuckIce/modelView/releases/download/v1.0.0/ModelTo-release.7z.001",
+        "sha256": "53a236bb1ed8a72ac88bc25eae237c068b64623eb958a2c58680e354eb86f173",
+        "size": 94371840
+      },
+      {
+        "name": "ModelTo-release.7z.002",
+        "url": "https://github.com/GoodLuckIce/modelView/releases/download/v1.0.0/ModelTo-release.7z.002",
+        "sha256": "2916a2e165fbc5bf0d6fd8ac0fabac61cee872f5a408a88d5e4f2be54267af9a",
+        "size": 94371840
+      },
+      {
+        "name": "ModelTo-release.7z.003",
+        "url": "https://github.com/GoodLuckIce/modelView/releases/download/v1.0.0/ModelTo-release.7z.003",
+        "sha256": "db0e6a63c4b8b756717cf4c2c62f0fa1d05bbb7d9c603cdb0c61bc0058bea519",
+        "size": 94371840
+      },
+      {
+        "name": "ModelTo-release.7z.004",
+        "url": "https://github.com/GoodLuckIce/modelView/releases/download/v1.0.0/ModelTo-release.7z.004",
+        "sha256": "ceb3e1fb8cd8b51e19f8e3d98c7672d4c17bea1852c206e592fe0f5d5e0294a3",
+        "size": 94371840
+      },
+      {
+        "name": "ModelTo-release.7z.005",
+        "url": "https://github.com/GoodLuckIce/modelView/releases/download/v1.0.0/ModelTo-release.7z.005",
+        "sha256": "0c0db59d40d020886d2c80360e2f25f6dbc1916354ab4a872fd5db5ce6f9f432",
+        "size": 24177331
+      }
+    ]
+  }
+}
