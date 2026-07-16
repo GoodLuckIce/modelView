@@ -2,7 +2,7 @@
 
 **A high-performance engineering model viewer and collaboration foundation for BIM, mechanical CAD, industrial assemblies, and large 3D projects.**
 
-[Download the latest Windows release](https://github.com/GoodLuckIce/modelView/releases/latest) · [China mirror](https://gitee.com/onedraw/modelView/releases) · [Report an issue or discuss a project](https://github.com/GoodLuckIce/modelView/issues)
+[Download the latest Windows release](https://github.com/GoodLuckIce/modelView/releases/latest) · [Report an issue or discuss a project](https://github.com/GoodLuckIce/modelView/issues)
 
 ModelView turns native engineering files into a reusable local viewing cache, then keeps model hierarchy, properties, measurement, sectioning, component operations, sharing, and synchronized review connected in one 3D context.
 
@@ -87,3 +87,4 @@ Open a GitHub issue with the model type, source application/version, approximate
 The Windows Standard Edition is free to use. Commercial embedding, white-labeling, redistribution, source access, enterprise deployment, and long-term support require a separate agreement.
 
 This repository is the official international product and release page. The application source code is not distributed here.
+
