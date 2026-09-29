@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "feedbackBaseUrl": "https://feedback.collabview.top:28444",
   "latestRelease": {
-    "version": "1.0.39",
-    "packageUrl": "https://github.com/GoodLuckIce/modelView/releases/download/v1.0.39/ModelView.exe",
+    "version": "1.0.40",
+    "packageUrl": "https://github.com/GoodLuckIce/modelView/releases/download/v1.0.40/ModelView.exe",
     "packageSha256": "ad9139ab28b5ed39b5c1868415eefc041b6e2e346ae238e93c7b401d47b0cf77",
     "packageSize": 32288256,
-    "publishedAt": "2026-09-28T17:03:36+08:00"
+    "publishedAt": "2026-09-29T08:45:12+08:00"
   },
   "tools": {
     "updater": {
