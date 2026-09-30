@@ -4,9 +4,9 @@
   "latestRelease": {
     "version": "1.0.42",
     "packageUrl": "https://github.com/GoodLuckIce/modelView/releases/download/v1.0.42/ModelView.exe",
-    "packageSha256": "739d75804cf6acd922e4abc5e35a2155da05c92cedd0c9163b29aaf0943c9664",
-    "packageSize": 76401664,
-    "publishedAt": "2026-09-30T18:18:08+08:00"
+    "packageSha256": "3685ce09f9de00bde92aff6beff529ac01d5f340606ca3cdd3dc15690985528d",
+    "packageSize": 76409856,
+    "publishedAt": "2026-09-30T19:27:49+08:00"
   },
   "tools": {
     "updater": {
