@@ -2,13 +2,13 @@
 
 **Effective date:** October 8, 2026
 
-This policy describes ModelView 1.0.46 and later. Please update to the current version.
+This policy describes ModelView 1.0.47 and later. Please update to the current version.
 
 ModelView is a Windows application for locally converting, viewing, and reviewing engineering and 3D models. This policy explains how ModelView handles information when you use the application and its feedback and diagnostic services.
 
 ## Information processed locally
 
-Model source files, converted assets, cached render data, preferences, and local work data are processed and stored on your Windows device. Conversion and viewing remain local. Original model files are sent to support only when you actively submit an error report as described below.
+Model source files, converted assets, cached render data, preferences, and local work data are processed and stored on your Windows device. Conversion and viewing remain local. **Model files are never uploaded automatically.** An original model file is sent to support only when you actively choose "Submit error information" after a conversion failure, as described below.
 
 ## Optional feedback and support
 
@@ -18,9 +18,11 @@ We use this information to deliver the feedback feature, respond to requests, ma
 
 ## Error diagnostics and user-submitted model samples
 
-When an error occurs, ModelView automatically sends bounded diagnostic information to the ModelView feedback service to reproduce errors and fix bugs. This can include installation identifiers, application and converter versions, Windows and basic hardware information, source format and size, failure stages, attempt history, timestamps, exit codes, memory measurements, and error logs. Diagnostic text is redacted and limited in length. Automatic error reports do not include original model files.
+When an error occurs, ModelView automatically sends bounded diagnostic information to the ModelView feedback service to reproduce errors and fix bugs. This can include installation identifiers, application and converter versions, Windows and basic hardware information, source format and size, failure stages, attempt history, timestamps, exit codes, memory measurements, and error logs. Diagnostic text is redacted and limited in length. **Automatic error reports never include original model files.**
 
-After conversion fails, you can choose "Submit error information" on the failed model. Clicking this button submits the report directly in the background and hides the button; no log dialog or result message is shown. Only when you actively submit does ModelView attach the original source file, provided it is readable, unchanged, non-empty, and no larger than 500 MiB (524,288,000 bytes). The file is gzip-compressed before upload. If you do not submit, no original model file is uploaded; only error diagnostics are collected. Model samples may contain confidential design information, so submit only files you are authorized to share. This size limit applies before compression. Larger models are not attached. Model file names and original paths are not attachment metadata. The service validates the file size and SHA-256 and stores the restored original file for authorized administrators to download for debugging. Samples are not published.
+After conversion fails, you can choose "Submit error information" on the failed model. Clicking this button submits the report directly in the background and hides the button; no log dialog or result message is shown. Only this explicit click can attach the original source file, provided it is readable, unchanged, non-empty, and no larger than 500 MiB (524,288,000 bytes). The file is gzip-compressed before upload.
+
+If you do not click "Submit error information", no original model file is uploaded; only redacted error diagnostics are collected. Model samples may contain confidential design information, so submit only files you are authorized to share. The 500 MiB limit applies before compression. Larger models are not attached. Model file names and original paths are not attachment metadata. The service validates the file size and SHA-256 and stores the restored original file for authorized administrators to download for debugging. Samples are not published.
 
 Automatic diagnostics do not require starting a feedback conversation. If delivery fails, a bounded local queue retains reports and retries later. A queued model attachment is retained and retried only after your active submission. You can request deletion of diagnostic reports and model samples through the contact below; do not post models or confidential details in a public issue.
 
@@ -38,9 +40,8 @@ Locally processed model data remains under your control on your device. Feedback
 
 ## Your choices and requests
 
-You can avoid sending model files by not choosing "Submit error information" on a failed model. You can avoid optional chat feedback by not using the feedback feature. Automatic error diagnostics operate separately and do not include original model files. You can remove local ModelView data using Windows and file system controls. For a privacy request or question, open an issue at https://github.com/GoodLuckIce/modelView/issues. Do not include sensitive information in a public issue.
+Model files are never uploaded automatically. You can avoid sending a model file by not choosing "Submit error information" on a failed model. You can avoid optional chat feedback by not using the feedback feature. Automatic error diagnostics operate separately and do not include original model files. You can remove local ModelView data using Windows and file system controls. For a privacy request or question, open an issue at https://github.com/GoodLuckIce/modelView/issues. Do not include sensitive information in a public issue.
 
 ## Changes
 
 We may update this policy when ModelView changes. We will publish the current version at this URL and update the effective date.
-
